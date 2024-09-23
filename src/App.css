@@ -1,0 +1,18 @@
+.section,
+.main {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2rem;
+	background-color: aliceblue;
+	color: black;
+}
+
+.section.horizontal,
+.section.horizontal .main {
+	background-color: beige;
+	display: flex;
+	flex-wrap: nowrap;
+}
